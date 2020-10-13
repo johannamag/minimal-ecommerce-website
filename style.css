@@ -207,3 +207,50 @@ h2 {
   justify-content: center;
   padding: 5rem;
 }
+
+.header {
+  text-align: center;
+  padding: 2rem;
+}
+
+.dash {
+  height: 4px;
+  width: 60px;
+  margin: 10px auto 20px auto;
+  display: block;
+  opacity: 0.8;
+  background-color: #000;
+}
+
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 40px;
+}
+
+.products-container img {
+  height: 300px;
+  width: 400px;
+  object-fit: cover;
+}
+
+.card {
+  border: 1px solid #ccc;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: all 0.3 ease;
+}
+
+.name-price {
+  padding: 0.5rem;
+}
+
+.prod-name {
+  opacity: 0.8;
+}
+
+.price {
+  font-weight: 700;
+}
