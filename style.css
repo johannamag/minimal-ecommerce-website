@@ -286,3 +286,33 @@ h2 {
   margin-top: 10px;
   opacity: 0.8;
 }
+
+footer {
+  background-color: #c6c6c6;
+  padding: 1rem;
+  margin-top: 50px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+
+footer ul li {
+  padding: 0 15px;
+}
+
+footer ul li a {
+  padding-bottom: 5px;
+}
+
+footer ul li a:hover {
+  border-bottom: 2px solid #000;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 15px;
+  opacity: 0.8;
+  font-size: 15px;
+}
