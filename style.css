@@ -183,3 +183,15 @@ h2 {
 .view:hover {
   text-decoration: underline;
 }
+
+.offers {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  text-align: center;
+  padding: 2rem;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+}
